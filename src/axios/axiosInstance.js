@@ -14,7 +14,7 @@ export const axiosNetwork = {
             .catch(err=>console.log('err', err))
         return responseData
     },
-    addItem: async(url, data) => {
+    add: async(url, data) => {
         await axiosIntance.post(`${url}`, data)
     },
     update: async(url, id, data) => {
