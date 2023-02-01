@@ -49,7 +49,7 @@ function App() {
   console.log(newProducts.name);
   return (
     <div className="App">
-      <div>
+      <div className='formDiv'>
         <form onSubmit={formSubmit}>
           <div>
             <input onChange={handleChange} id='name' name='name' type="text" placeholder='Name' />
@@ -60,7 +60,7 @@ function App() {
           <button type='submit' disabled={newProducts.name.length < 1 || newProducts.description.length < 1 ? true : null}>Add</button>
         </form>
       </div>
-      <table>
+      <table className='table'>
           <thead>
             <tr>
               <th>Name</th>

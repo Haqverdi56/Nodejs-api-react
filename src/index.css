@@ -40,3 +40,24 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.table {
+  width: 100%;
+  margin-top: 5rem;
+  text-align: left;
+  margin-left: 1rem;
+}
+thead {
+  color: red;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.formDiv input {
+  padding: 0.5rem;
+  border-radius: 10px;
+}
